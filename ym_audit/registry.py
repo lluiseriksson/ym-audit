@@ -8,7 +8,7 @@ class AuditTest:
     id: str
     kind: str
     statement: str
-    acceptance: str
+    acceptance: str = ""
     deps: List[str] = field(default_factory=list)
     timeout_s: float = 60.0
     seed: Optional[int] = 0
