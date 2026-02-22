@@ -1,1 +1,6 @@
-raise ImportError("Package name changed: use `ym_audit` instead of `audit`.")
+"""
+Compatibility shim.
+
+The project package was renamed from `audit` to `ym_audit`.
+New code should import `ym_audit.*`.
+"""

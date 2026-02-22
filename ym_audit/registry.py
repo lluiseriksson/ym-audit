@@ -22,3 +22,6 @@ def register(t: AuditTest) -> None:
     if t.id in REGISTRY:
         raise KeyError(f"Duplicate test id: {t.id}")
     REGISTRY[t.id] = t
+
+# Backwards-compat alias
+EqTest = AuditTest
