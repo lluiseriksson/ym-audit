@@ -1,0 +1,146 @@
+{
+  "total_tests": 17,
+  "passed": 16,
+  "failed": 1,
+  "total_time_s": 6.65,
+  "results": [
+    {
+      "test_id": "ANISO.Thm3.6.W4_Sym",
+      "kind": "exact",
+      "status": "PASS",
+      "message": "Pass: h_aniso invariant under all 384 W4 actions.",
+      "time_s": 0.002,
+      "description": "W4 invariance of anisotropic harmonic polynomial in R^4."
+    },
+    {
+      "test_id": "ANISO.h_aniso.Harmonicity",
+      "kind": "exact",
+      "status": "PASS",
+      "message": "Pass: Laplacian vanishes at c = 3/2 in d=4.",
+      "time_s": 0.0,
+      "description": "Laplacian -> solve for harmonic coefficient in d=4."
+    },
+    {
+      "test_id": "KP.Lem6.2.AnimalBound",
+      "kind": "bound",
+      "status": "PASS",
+      "message": "Pass: q=5.39e-02, bound=0.06, margin=2.92.",
+      "time_s": 0.0001,
+      "description": "Lattice-animal weighted series + margin for KP convergence."
+    },
+    {
+      "test_id": "MG.Prop6.1.Telescoping",
+      "kind": "toy-model",
+      "status": "PASS",
+      "message": "Pass: telescoping identity holds, abs_error < 1e-15.",
+      "time_s": 0.0156,
+      "description": "Telescoping identity (law of total covariance) in finite space."
+    },
+    {
+      "test_id": "OS1.LemB.Discretization_Oeta2",
+      "kind": "numerical",
+      "status": "PASS",
+      "message": "Pass: slope = 1.778 in [1.7, 2.3].",
+      "time_s": 0.0212,
+      "description": "Symmetric finite differences show O(eta^2) error."
+    },
+    {
+      "test_id": "P86.Prop4.1.CouplingControl_worstcase",
+      "kind": "bound",
+      "status": "PASS",
+      "message": "Pass: worst-case flow keeps g_k <= g_0.",
+      "time_s": 0.0014,
+      "description": "Worst-case coupling-flow recursion: g_k <= g_0."
+    },
+    {
+      "test_id": "P86.Thm6.3.UVSuppression_geometric",
+      "kind": "bound",
+      "status": "PASS",
+      "message": "Pass: sum=9.127135e-04, ratio=1.0009 < 2.",
+      "time_s": 0.0,
+      "description": "UV scale sum converges geometrically."
+    },
+    {
+      "test_id": "P87.Thm3.6.OneDimAniso_symbolic",
+      "kind": "exact",
+      "status": "PASS",
+      "message": "Pass: 1D aniso quotient confirmed, W4-invariant.",
+      "time_s": 0.0063,
+      "description": "Anisotropic quotient is 1-dimensional."
+    },
+    {
+      "test_id": "P87.Thm5.4.AnisotropyScaling_from_samples",
+      "kind": "numerical",
+      "status": "PASS",
+      "message": "Pass: scaling consistent with O(a^2).",
+      "time_s": 0.0003,
+      "description": "Log-log regression of anisotropy coefficient; slope ~ 2."
+    },
+    {
+      "test_id": "P87.Thm5.4.CauchyBound_perPolymer",
+      "kind": "exact",
+      "status": "PASS",
+      "message": "Pass: all Cauchy ratios <= 1, max=0.16666667.",
+      "time_s": 0.0001,
+      "description": "Cauchy bound on polymer Taylor coefficients."
+    },
+    {
+      "test_id": "P88.Lem4.4.LieAlgAnnihilation_SO4",
+      "kind": "numerical",
+      "status": "PASS",
+      "message": "Pass: max_violation=0.000601 < 0.01.",
+      "time_s": 0.0627,
+      "description": "Lie algebra annihilation => SO(4) invariance."
+    },
+    {
+      "test_id": "P88.Thm4.2.VanishingRate_eta2log",
+      "kind": "numerical",
+      "status": "PASS",
+      "message": "Pass: min_rate=1.84e-15 < 1e-10, confirmed vanishing.",
+      "time_s": 0.0002,
+      "description": "eta^2 log(eta^{-1}) -> 0 verified."
+    },
+    {
+      "test_id": "P89.Lem6.1.ExpInequality",
+      "kind": "exact",
+      "status": "PASS",
+      "message": "Pass: 0 violations in 10001 points, max_ratio=0.999500.",
+      "time_s": 0.0003,
+      "description": "|e^t - 1| <= |t| e^|t| verification."
+    },
+    {
+      "test_id": "P89.Thm1.1.TerminalKP_geometric_series",
+      "kind": "bound",
+      "status": "PASS",
+      "message": "Pass: delta=0.021020 < 1, q=8.8872e-02.",
+      "time_s": 0.0,
+      "description": "Terminal KP geometric series: delta < 1.",
+      "delta": 0.02102,
+      "q": 0.088872
+    },
+    {
+      "test_id": "P90.Lem6.2.KPMargin_explicit",
+      "kind": "bound",
+      "status": "PASS",
+      "message": "Pass: margin=2.2617, at -10%: 1.4117 > 0.",
+      "time_s": 0.0,
+      "description": "KP margin > 0 with 10% sensitivity."
+    },
+    {
+      "test_id": "P90.Lem6.4.Superpoly_from_c_over_g2",
+      "kind": "bound",
+      "status": "FAIL",
+      "message": "Fail: 47 violations for m=10",
+      "time_s": 0.0002,
+      "description": "Verify exp(-c/g^2) <= g^m on log-grid."
+    },
+    {
+      "test_id": "P90.Lem8.1.TriangularMixingLock_d4_exact",
+      "kind": "exact",
+      "status": "PASS",
+      "message": "Pass: unique W4-invariant scalar at d=4 (symbolic).",
+      "time_s": 6.4294,
+      "description": "W4-invariant bilinear forms on wedge^2(R^4): dim=1."
+    }
+  ]
+}
