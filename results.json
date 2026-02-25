@@ -2,14 +2,14 @@
   "total_tests": 17,
   "passed": 16,
   "failed": 1,
-  "total_time_s": 6.65,
+  "total_time_s": 4.47,
   "results": [
     {
       "test_id": "ANISO.Thm3.6.W4_Sym",
       "kind": "exact",
       "status": "PASS",
       "message": "Pass: h_aniso invariant under all 384 W4 actions.",
-      "time_s": 0.002,
+      "time_s": 0.0018,
       "description": "W4 invariance of anisotropic harmonic polynomial in R^4."
     },
     {
@@ -33,7 +33,7 @@
       "kind": "toy-model",
       "status": "PASS",
       "message": "Pass: telescoping identity holds, abs_error < 1e-15.",
-      "time_s": 0.0156,
+      "time_s": 0.0186,
       "description": "Telescoping identity (law of total covariance) in finite space."
     },
     {
@@ -41,7 +41,7 @@
       "kind": "numerical",
       "status": "PASS",
       "message": "Pass: slope = 1.778 in [1.7, 2.3].",
-      "time_s": 0.0212,
+      "time_s": 0.0016,
       "description": "Symmetric finite differences show O(eta^2) error."
     },
     {
@@ -49,7 +49,7 @@
       "kind": "bound",
       "status": "PASS",
       "message": "Pass: worst-case flow keeps g_k <= g_0.",
-      "time_s": 0.0014,
+      "time_s": 0.0022,
       "description": "Worst-case coupling-flow recursion: g_k <= g_0."
     },
     {
@@ -65,7 +65,7 @@
       "kind": "exact",
       "status": "PASS",
       "message": "Pass: 1D aniso quotient confirmed, W4-invariant.",
-      "time_s": 0.0063,
+      "time_s": 0.0121,
       "description": "Anisotropic quotient is 1-dimensional."
     },
     {
@@ -73,7 +73,7 @@
       "kind": "numerical",
       "status": "PASS",
       "message": "Pass: scaling consistent with O(a^2).",
-      "time_s": 0.0003,
+      "time_s": 0.0005,
       "description": "Log-log regression of anisotropy coefficient; slope ~ 2."
     },
     {
@@ -89,7 +89,7 @@
       "kind": "numerical",
       "status": "PASS",
       "message": "Pass: max_violation=0.000601 < 0.01.",
-      "time_s": 0.0627,
+      "time_s": 0.0917,
       "description": "Lie algebra annihilation => SO(4) invariance."
     },
     {
@@ -105,7 +105,7 @@
       "kind": "exact",
       "status": "PASS",
       "message": "Pass: 0 violations in 10001 points, max_ratio=0.999500.",
-      "time_s": 0.0003,
+      "time_s": 0.0006,
       "description": "|e^t - 1| <= |t| e^|t| verification."
     },
     {
@@ -130,8 +130,8 @@
       "test_id": "P90.Lem6.4.Superpoly_from_c_over_g2",
       "kind": "bound",
       "status": "FAIL",
-      "message": "Fail: 47 violations for m=10",
-      "time_s": 0.0002,
+      "message": "Fail: 6 violations for m=10 in [0.001, 0.3]",
+      "time_s": 0.0003,
       "description": "Verify exp(-c/g^2) <= g^m on log-grid."
     },
     {
@@ -139,7 +139,7 @@
       "kind": "exact",
       "status": "PASS",
       "message": "Pass: unique W4-invariant scalar at d=4 (symbolic).",
-      "time_s": 6.4294,
+      "time_s": 4.1949,
       "description": "W4-invariant bilinear forms on wedge^2(R^4): dim=1."
     }
   ]

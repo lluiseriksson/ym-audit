@@ -176,7 +176,7 @@ def main():
         "|---|---|---|---|---|",
     ]
     for r in results:
-        msg = r.get("message", "")[:80].replace("|", "\|")
+        msg = r.get("message", "")[:80].replace("|", "\\|")
         lines.append(
             f"| `{r['test_id']}` | {r['kind']} | "
             f"**{r['status']}** | {r['time_s']:.3f} | {msg} |"
