@@ -68,30 +68,65 @@ def scale_cancellation_d4(record_fn):
               {"expected": expected, "max_deviation": max_dev}, t0)
 
 def flow_column_bound_d4(record_fn):
-    """Verify ell^2 column bound p_{2tau}(0,0) <= C/(tau+1)^2 + 1/|G|."""
+    """
+    Verify ell^2 column bound: p_{2tau}(0,0) <= C/(tau+1)^{d/2} + 1/|G|.
+    
+    Strategy: compute EXCESS = p_{2tau}(0,0) - 1/|G| (above plateau).
+    Verify that (tau+1)^2 * excess is bounded (not growing) for d=4.
+    Also verify that p_{2tau} at large tau approaches plateau 1/|G|.
+    """
     t0 = time.time()
     from itertools import product as iprod
     d = 4; N_side = 8
+    G = N_side ** d  # = 4096
+    plateau = 1.0 / G
+    
     eigenvalues = []
     for kvec in iprod(range(N_side), repeat=d):
         lam = sum(2 - 2*np.cos(2*np.pi*ki/N_side) for ki in kvec)
         eigenvalues.append(lam)
     eigenvalues = np.array(eigenvalues)
-    taus = [1, 10, 100, 1000]
-    products = []
+    
+    taus = [0.1, 0.5, 1.0, 5.0, 10.0, 50.0, 100.0, 500.0, 1000.0]
+    scaled_excess = []
+    raw_p2tau = []
+    
     for tau in taus:
         p2tau = float(np.mean(np.exp(-2*tau*eigenvalues)))
-        scaled = (tau+1)**2 * p2tau
-        products.append(scaled)
-    products_arr = np.array(products)
-    ok_bounded = bool(products_arr[-1] < 10 * products_arr[0] + 1)
-    p2tau_1 = float(np.mean(np.exp(-2*1*eigenvalues)))
-    p2tau_1000 = float(np.mean(np.exp(-2*1000*eigenvalues)))
-    ok_decay = p2tau_1000 < p2tau_1 * 0.01
-    ok = ok_bounded and ok_decay
+        excess = p2tau - plateau
+        sc = (tau + 1)**2 * max(excess, 0)
+        scaled_excess.append(sc)
+        raw_p2tau.append(p2tau)
+    
+    # Check 1: scaled excess is bounded (no blowup)
+    # Allow small values at large tau (excess -> 0)
+    max_scaled = max(scaled_excess)
+    ok_bounded = max_scaled < 100  # generous upper bound
+    
+    # Check 2: p_{2tau} approaches plateau at large tau
+    # p(tau=1000) should be very close to plateau
+    p_large = raw_p2tau[-1]  # tau=1000
+    plateau_approach = abs(p_large - plateau) / plateau < 0.01  # within 1% of plateau
+    
+    # Check 3: p_{2tau} at small tau is significantly above plateau
+    p_small = raw_p2tau[2]  # tau=1.0
+    above_plateau = p_small > 2 * plateau  # at least 2x plateau
+    
+    # Check 4: excess decays monotonically
+    excesses = [max(p - plateau, 0) for p in raw_p2tau]
+    monotone = all(excesses[i] >= excesses[i+1] - 1e-15 for i in range(len(excesses)-1))
+    
+    ok = ok_bounded and plateau_approach and above_plateau and monotone
+    
     record_fn("INFRA.Flow.ColumnBound_d4", "numerical", ok,
-              f"(tau+1)^2 * p_{{2tau}} bounded. Decay: p(1)={p2tau_1:.4e}, p(1000)={p2tau_1000:.4e}",
-              {"scaled_products": [round(float(x),4) for x in products_arr],
-               "p2tau_1": p2tau_1, "p2tau_1000": p2tau_1000}, t0)
+              f"(tau+1)^2 * excess bounded (max={max_scaled:.4f}). "
+              f"Plateau approach: |p(1000)-1/G|/plateau = {abs(p_large-plateau)/plateau:.2e}. "
+              f"p(1)={p_small:.4e} > 2*plateau={2*plateau:.4e}. Monotone={monotone}",
+              {"max_scaled_excess": round(max_scaled, 4),
+               "plateau": plateau,
+               "p2tau_values": {str(t): round(p, 8) for t, p in zip(taus, raw_p2tau)},
+               "scaled_excess": [round(s, 4) for s in scaled_excess],
+               "plateau_approach_pct": round(abs(p_large-plateau)/plateau * 100, 4),
+               "monotone_decay": monotone}, t0)
 
 ALL_TESTS = [ricci_sun_bakry_emery, scale_cancellation_d4, flow_column_bound_d4]
