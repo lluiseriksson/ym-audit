@@ -1,0 +1,371 @@
+================================================================================
+THE ERIKSSON PROGRAMME — PRIORITY & ATTRIBUTION NOTICE
+================================================================================
+
+Copyright (C) 2025-2026 Lluis Eriksson
+All intellectual priority rights reserved.
+
+This file is a legally binding NOTICE under Section 7(b) of the GNU Affero 
+General Public License v3.0 (AGPL-3.0), requiring preservation of specified 
+reasonable legal notices and author attributions in this material and in any 
+work containing it.
+
+================================================================================
+1. INTELLECTUAL PRIORITY DECLARATION
+================================================================================
+
+This repository implements the core algorithmic architecture of "The Eriksson 
+Programme" — a constructive proof framework for the Yang-Mills Existence and 
+Mass Gap problem (Clay Mathematics Institute Millennium Problem #4).
+
+The unique methodological pipeline ("architectural signature") of this 
+programme is:
+
+  Step 1: Balaban Renormalization Group (RG) Bridge
+          Rigorous lattice-to-continuum limit via Balaban's 29 lemmas
+  
+  Step 2: Kotecký-Preiss Polymer Expansion
+          Convergence validation of cluster expansions with explicit 
+          eta-bounds
+  
+  Step 3: Osterwalder-Schrader Axiom Verification
+          Mechanical audit of OS reflection positivity
+          (condition OS1: O(eta^2 log eta^{-1}))
+  
+  Step 4: Wightman Reconstruction
+          Passage from Euclidean to Minkowski QFT with mass gap Delta > 0
+
+This specific four-step pipeline, combined with the "mechanical lemma-audit" 
+verification methodology, constitutes the original intellectual contribution 
+of Lluis Eriksson.
+
+================================================================================
+2. COMPLETE TIMELINE & PUBLIC RECORD
+================================================================================
+
+All 68 papers comprising The Eriksson Programme are publicly timestamped 
+and independently verifiable:
+
+REPOSITORY: ai.viXra.org — Author page: Lluis Eriksson
+URL: https://ai.vixra.org/author/lluis_eriksson
+
+ZENODO (with DOI):
+  https://doi.org/10.5281/zenodo.18799942
+  https://doi.org/10.5281/zenodo.18800920
+
+GITHUB:
+  https://github.com/lluiseriksson/ym-audit
+
+CHRONOLOGICAL PAPER LIST (68 papers, December 2025 — February 2026):
+
+[68] ai.viXra.org:2602.0117 — 2026-02-27
+     Mechanical Audit Experiments and Reproducibility Appendix for a 
+     Companion-Paper Programme on 4D SU(N) Yang-Mills Existence and Mass Gap
+
+[67] ai.viXra.org:2602.0096 — 2026-02-20
+     The Master Map: An Audit-First, Attack-Resistant Navigation Guide to 
+     the Unconditional Solution of the 4D SU(N) Yang-Mills Existence and 
+     Mass Gap Problem (Clay Millennium Problem)
+
+[66] ai.viXra.org:2602.0092 — 2026-02-19
+     Rotational Symmetry Restoration and the Wightman Axioms for 
+     Four-Dimensional SU(N) Yang-Mills Theory
+
+[65] ai.viXra.org:2602.0091 — 2026-02-19
+     Closing the Last Gap in the 4D SU(N) Yang-Mills Construction: 
+     A Verified Terminal KP Bound and an Explicit Clay Checklist
+
+[64] ai.viXra.org:2602.0089 — 2026-02-18
+     Spectral Gap and Thermodynamic Limit for SU(N) Lattice Yang-Mills 
+     Theory via Log-Sobolev Inequalities and Complete Analyticity
+
+[63] ai.viXra.org:2602.0088 — 2026-02-19
+     Exponential Clustering and Mass Gap for Four-Dimensional SU(N) 
+     Lattice Yang-Mills Theory Via Balaban's RG and Multiscale 
+     Correlator Decoupling
+
+[62] ai.viXra.org:2602.0087 — 2026-02-19
+     Irrelevant Operators, Anisotropy Bounds, and Operator Insertions 
+     in Balaban's RG for Four-Dimensional SU(N) Lattice Yang-Mills Theory
+
+[61] ai.viXra.org:2602.0085 — 2026-02-17
+     Ultraviolet Stability of Wilson-Loop Expectations in 4D Lattice 
+     Yang-Mills Theory Via Multiscale Gradient-Flow Smoothing
+
+[60] ai.viXra.org:2602.0084 — 2026-02-17
+     Almost Reflection Positivity for Gradient-Flow Observables via 
+     Gaussian Localization in Lattice Yang-Mills Theory
+
+[59] ai.viXra.org:2602.0077 — 2026-02-15
+     Ultraviolet Stability for Four-Dimensional Lattice Yang-Mills 
+     Theory Under a Quantitative Blocking Hypothesis
+
+[58] ai.viXra.org:2602.0073 — 2026-02-14
+     RG-Cauchy Summability for Blocked Observables in 4d Lattice 
+     Yang-Mills Theory via Balaban's Renormalization Group
+
+[57] ai.viXra.org:2602.0072 — 2026-02-14
+     Influence Bounds for Polymer Remainders in Balaban's RG: 
+     Closing Assumption (B6) for the RG-Cauchy Programme
+
+[56] ai.viXra.org:2602.0070 — 2026-02-14
+     Doob Influence Bounds for Polymer Remainders in 4D Lattice 
+     Yang-Mills Renormalization
+
+[55] ai.viXra.org:2602.0069 — 2026-02-14
+     The Balaban-Dimock Structural Package: Derivation of Polymer 
+     Representation, Oscillation Bounds, and Large-Field Suppression
+
+[54] ai.viXra.org:2602.0063 — 2026-02-14
+     Conditional Continuum Limit of 4d SU(N_c) Yang-Mills Theory via 
+     Two-Layer Architecture, RG-Cauchy Uniqueness, and Step-Scaling
+
+[53] ai.viXra.org:2602.0057 — 2026-02-12
+     Integrated Cross-Scale Derivative Bounds for Wilson Lattice 
+     Gauge Theory: Closing the Log-Sobolev Gap
+
+[52] ai.viXra.org:2602.0056 — 2026-02-12
+     Large-Field Suppression for Lattice Gauge Theories: from 
+     Balaban's RG to Conditional Concentration
+
+[51] ai.viXra.org:2602.0055 — 2026-02-12
+     Unconditional Uniform Log-Sobolev Inequality for SU(N_c) 
+     Lattice Yang-Mills at Weak Coupling
+
+[50] ai.viXra.org:2602.0054 — 2026-02-12
+     From Uniform Log-Sobolev Inequality to Mass Gap for Lattice 
+     Yang-Mills at Weak Coupling
+
+[49] ai.viXra.org:2602.0053 — 2026-02-12
+     DLR-Uniform Log-Sobolev Inequality and Unconditional Mass Gap 
+     for Lattice Yang-Mills at Weak Coupling
+
+[48] ai.viXra.org:2602.0052 — 2026-02-12
+     Interface Lemmas for the Multiscale Proof of the Lattice 
+     Yang-Mills Mass Gap
+
+[47] ai.viXra.org:2602.0051 — 2026-02-12
+     Uniform Coercivity, Pointwise Large-Field Suppression, and 
+     Unconditional Closure of the Lattice Yang-Mills Mass Gap
+
+[46] ai.viXra.org:2602.0046 — 2026-02-12
+     Ricci Curvature of the Orbit Space of Lattice Gauge Theory 
+     and Single-Scale Log-Sobolev Inequalities
+
+[45] ai.viXra.org:2602.0041 — 2026-02-12
+     Uniform Log-Sobolev Inequality and Mass Gap for Lattice 
+     Yang-Mills Theory
+
+[44] ai.viXra.org:2602.0040 — 2026-02-08
+     Uniform Poincare Inequality for Lattice Yang-Mills Theory 
+     Via Multiscale Martingale Decomposition
+
+[43] ai.viXra.org:2602.0038 — 2026-02-08
+     Mass Gap for the Gribov-Zwanziger Lattice Measure: 
+     A Non-Perturbative Proof
+
+[42] ai.viXra.org:2602.0036 — 2026-02-08
+     Geodesic Convexity and Structural Limits of Curvature Methods 
+     for the Yang-Mills Mass Gap on the Lattice
+
+[41] ai.viXra.org:2602.0035 — 2026-02-08
+     Morse-Bott Spectral Reduction and the Yang-Mills Mass Gap 
+     on the Lattice
+
+[40] ai.viXra.org:2602.0033 — 2026-02-08
+     The Yang-Mills Mass Gap on the Lattice: a Self-Contained Proof
+
+[39] ai.viXra.org:2602.0032 — 2026-02-08
+     The Yang-Mills Mass Gap on the Lattice: a Self-Contained Proof 
+     Via Witten Laplacian and Constructive Renormalization
+
+[38] ai.viXra.org:2602.0021 — 2026-02-07
+     Yang-Mills Existence and Mass Gap: A Framework via Anomaly 
+     Algebra, Gradient-Flow Spectral Methods, and Quantum Information
+
+[37] ai.viXra.org:2602.0020 — 2026-02-07
+     Gradient Flow Monotonicity and the Yang-Mills Mass Gap: 
+     A Conditional Reduction via Spectral Methods
+
+[36] ai.viXra.org:2601.0115 — 2026-01-28
+     Algebraic Entropy and Conditional Mutual Information in a Tiny 
+     Gauge-Invariant Truncated Hilbert Space
+
+[35] ai.viXra.org:2601.0111 — 2026-01-27
+     Conditional Mutual Information and Petz Recovery in a Z_2 
+     Lattice Gauge Ground State
+
+[34] ai.viXra.org:2601.0099 — 2026-01-24
+     Program A: Semi-Infinite Conditional Mutual Information in 
+     the 1D Transverse-Field Ising Model (iMPS)
+
+[33] ai.viXra.org:2601.0066 — 2026-01-17
+     Typed Pipeline for Recoverability-Rate-Power Links
+
+[32] ai.viXra.org:2601.0065 — 2026-01-17
+     Split-Regularized Recoverability in Type III AQFT
+
+[31] ai.viXra.org:2601.0064 — 2026-01-17
+     RIP-U and the omega=0 Obstruction in Davies Dynamics
+
+[30] ai.viXra.org:2601.0051 — 2026-01-14
+     Petz Recoverability Versus Wilson-Loop Diagnostics in Z2 
+     Lattice Gauge Theory (2+1D): Benchmarks
+
+[29] ai.viXra.org:2601.0050 — 2026-01-14
+     CMI-Based Recoverability Versus Wilson-Loop Diagnostics in Z2 
+     Lattice Gauge Theory (2+1D): Exact Diagonalization Benchmark
+
+[28] ai.viXra.org:2601.0047 — 2026-01-13
+     Petz Recoverability Versus Wilson-Loop Diagnostics in Z2 
+     Lattice Gauge Theory (2+1D)
+
+[27] ai.viXra.org:2601.0046 — 2026-01-13
+     Petz Recoverability in AQFT Via Conditional Expectations
+
+[26] ai.viXra.org:2601.0044 — 2026-01-13
+     Recoverability Length Scales and Wilson Loops in Lattice 
+     Gauge Theories
+
+[25] ai.viXra.org:2601.0043 — 2026-01-13
+     Recoverability Geometry: Distances and Embeddings from 
+     Quantum Markov Data
+
+[24] ai.viXra.org:2601.0042 — 2026-01-11
+     Emergent Information Distance from Petz Recovery
+
+[23] ai.viXra.org:2601.0040 — 2026-01-12
+     Finite-Size Scaling of Petz Recovery Length in the TFIM
+
+[22] ai.viXra.org:2601.0038 — 2026-01-12
+     Operational Signatures of Criticality from Petz Recovery
+
+[21] ai.viXra.org:2601.0035 — 2026-01-11
+     A Non-Gaussian Clustering-Recovery Bridge via CMI
+
+[20] ai.viXra.org:2601.0034 — 2026-01-11
+     Modular Recovery from Split Inclusions
+
+[19] ai.viXra.org:2601.0031 — 2026-01-10
+     From Static Recoverability to Maintenance Power
+
+[18] ai.viXra.org:2601.0023 — 2026-01-08
+     Finite-Dimensional Davies Interface Lemmas and TFIM 
+     Witness Tests
+
+[17] ai.viXra.org:2601.0022 — 2026-01-08
+     The Rate Inheritance Principle: Operational 
+     Decoherence-Rate Envelopes
+
+[16] ai.viXra.org:2601.0020 — 2026-01-08
+     Geometric Markov Bounds and Rate Inheritance Modulo 
+     Fixed Points
+
+[15] ai.viXra.org:2601.0007 — 2026-01-02
+     Quantitative Recovery Bounds from Vacuum Clustering 
+     in Finite-Mode Gaussian States
+
+[14] ai.viXra.org:2512.0105 — 2025-12-31
+     Prefix-Path Bell Transport on IBM Quantum Hardware
+
+[13] ai.viXra.org:2512.0102 — 2025-12-31
+     Heat Kernel Methods and the Sign of Induced Gravity
+
+[12] ai.viXra.org:2512.0101 — 2025-12-31
+     Beyond Gaussianity: Extending the Clustering-Recovery Bridge
+
+[11] ai.viXra.org:2512.0091 — 2025-12-27
+     Technical Appendix: Heat Kernel, Fermions, and the Sign 
+     of Induced Gravity
+
+[10] ai.viXra.org:2512.0085 — 2025-12-24
+     Geometry, Membranes, and Life as a Resource Boundary
+
+[9]  ai.viXra.org:2512.0084 — 2025-12-24
+     The Maintenance Constraint: How Resource Boundaries Shape 
+     Cognitive Availability
+
+[8]  ai.viXra.org:2512.0081 — 2025-12-23
+     Operational Coherence Maintenance and the 
+     Quantum-Classical Boundary
+
+[7]  ai.viXra.org:2512.0073 — 2025-12-19
+     Finite-Dimensional Davies Interface Lemmas and TFIM 
+     Witness Tests for the Heisenberg Cut
+
+[6]  ai.viXra.org:2512.0072 — 2025-12-19
+     The Rate Inheritance Principle: From Static Correlations 
+     to Dynamical Decoherence Rates
+
+[5]  ai.viXra.org:2512.0071 — 2025-12-19
+     Operational Coherence Maintenance: Proven Results, 
+     Conditional Interfaces, and Open Dynamical Gaps
+
+[4]  ai.viXra.org:2512.0070 — 2025-12-19
+     Stress Testing the Rate Inheritance Principle
+
+[3]  ai.viXra.org:2512.0064 — 2025-12-17
+     The Heisenberg Cut as a Resource Boundary
+
+[2]  ai.viXra.org:2512.0061 — 2025-12-16
+     The Conditional Maintenance Work Theorem
+
+[1]  ai.viXra.org:2512.0060 — 2025-12-17
+     Clustering, Recovery, and Locality in Algebraic Quantum 
+     Field Theory
+
+================================================================================
+3. ATTRIBUTION REQUIREMENTS (AGPL-3.0 Section 7(b) Additional Terms)
+================================================================================
+
+In accordance with Section 7(b) of the GNU Affero General Public License 
+v3.0, the following additional terms apply to this work:
+
+(a) Any work — whether academic paper, software, blog post, web 
+    application, or commercial product — that reimplements, translates, 
+    adapts, or reproduces the logical architecture described in Section 1 
+    above (in any programming language, including but not limited to 
+    Python, Rust, OCaml, Haskell, Julia, Lean, C++, or any future 
+    language) MUST provide explicit and prominent attribution as follows:
+
+    Eriksson, L. (2025-2026). "The Eriksson Programme: Constructive 
+    Yang-Mills Mass Gap via Mechanical Lemma-Audit."
+    viXra: https://ai.vixra.org/author/lluis_eriksson
+    Zenodo DOI: https://doi.org/10.5281/zenodo.18799942
+    Zenodo DOI: https://doi.org/10.5281/zenodo.18800920
+    GitHub: https://github.com/lluiseriksson/ym-audit
+
+(b) Any modified version of this software, or any software that 
+    incorporates substantial portions of the algorithmic logic contained 
+    herein, must display the following notice prominently in its 
+    documentation and in any interactive user interface:
+
+    "This software is based on The Eriksson Programme by Lluis Eriksson 
+    (2025-2026). Original source: https://github.com/lluiseriksson/ym-audit"
+
+(c) Removal or alteration of this NOTICE file, or of the attribution 
+    requirements contained herein, from any copy or modified version of 
+    this work constitutes a violation of the AGPL-3.0 license terms.
+
+(d) Misrepresentation of the origin of this work — including but not 
+    limited to claiming independent authorship of the architectural 
+    pipeline described in Section 1 — is prohibited under Section 7(c) 
+    of the AGPL-3.0.
+
+================================================================================
+4. CONTACT
+================================================================================
+
+Author:  Lluis Eriksson
+GitHub:  https://github.com/lluiseriksson
+viXra:   https://ai.vixra.org/author/lluis_eriksson
+Zenodo:  https://doi.org/10.5281/zenodo.18799942
+         https://doi.org/10.5281/zenodo.18800920
+
+To report potential misattribution or unauthorized use of The Eriksson 
+Programme architecture, please open an issue at:
+https://github.com/lluiseriksson/ym-audit/issues
+
+================================================================================
+END OF NOTICE
+================================================================================
