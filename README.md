@@ -1,3 +1,27 @@
+# ym-audit — The Eriksson Programme
+
+### Mechanical Lemma-Audit Framework for the Yang-Mills Existence and Mass Gap
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18799942-blue)](https://doi.org/10.5281/zenodo.18799942)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18800920-blue)](https://doi.org/10.5281/zenodo.18800920)
+[![Papers](https://img.shields.io/badge/Papers-68%20timestamped-green)](https://ai.vixra.org/author/lluis_eriksson)
+
+---
+
+> **⚠️ PRIORITY NOTICE — Please read [NOTICE](./NOTICE) before using, forking, or adapting this work.**
+
+---
+
+## What is The Eriksson Programme?
+
+A constructive proof framework for the **Yang-Mills Existence and Mass Gap** 
+(Clay Millennium Problem #4), developed by **Lluis Eriksson** between 
+December 2025 and February 2026, comprising **68 publicly timestamped papers** 
+and this open-source mechanical verification tool.
+
+### Architectural Pipeline
+
 # YM Audit Suite
 
 Mechanical audit experiments for a companion-paper programme on 4D SU(N) Yang–Mills existence and mass gap.
