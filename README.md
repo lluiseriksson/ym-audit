@@ -15,12 +15,142 @@
 
 ## What is The Eriksson Programme?
 
-A constructive proof framework for the **Yang-Mills Existence and Mass Gap** 
-(Clay Millennium Problem #4), developed by **Lluis Eriksson** between 
-December 2025 and February 2026, comprising **68 publicly timestamped papers** 
-and this open-source mechanical verification tool.
+A constructive proof framework for the **Yang-Mills Existence and Mass Gap** (Clay Millennium Problem #4), developed by **Lluis Eriksson** between December 2025 and February 2026, comprising **68 publicly timestamped papers** and this open-source mechanical verification tool.
 
 ### Architectural Pipeline
+
+    Balaban RG Bridge (29 lemmas)
+        → Kotecký-Preiss Polymer Convergence
+            → Osterwalder-Schrader Axiom Verification (Mechanical Audit)
+                → Wightman Reconstruction (Mass Gap Δ > 0)
+
+### Public Record
+
+| Resource | Link |
+|----------|------|
+| **68 Papers (timestamped)** | [ai.vixra.org/author/lluis_eriksson](https://ai.vixra.org/author/lluis_eriksson) |
+| **Zenodo DOI #1** | [10.5281/zenodo.18799942](https://doi.org/10.5281/zenodo.18799942) |
+| **Zenodo DOI #2** | [10.5281/zenodo.18800920](https://doi.org/10.5281/zenodo.18800920) |
+| **This Repository** | [github.com/lluiseriksson/ym-audit](https://github.com/lluiseriksson/ym-audit) |
+
+### Complete Paper Corpus (68 papers)
+
+The full list of all 68 papers with viXra IDs, submission dates, and titles is available in the [NOTICE](./NOTICE) file (Section 2).
+
+**Date range:** December 16, 2025 — February 27, 2026
+
+**Key papers in the constructive pipeline:**
+
+| # | Date | viXra ID | Title |
+|---|------|----------|-------|
+| 68 | 2026-02-27 | 2602.0117 | Mechanical Audit Experiments and Reproducibility Appendix |
+| 67 | 2026-02-20 | 2602.0096 | The Master Map: Audit-First Navigation Guide to the Yang-Mills Solution |
+| 66 | 2026-02-19 | 2602.0092 | Rotational Symmetry Restoration and the Wightman Axioms |
+| 65 | 2026-02-19 | 2602.0091 | Closing the Last Gap: Verified Terminal KP Bound and Clay Checklist |
+| 64 | 2026-02-18 | 2602.0089 | Spectral Gap and Thermodynamic Limit via Log-Sobolev Inequalities |
+| 63 | 2026-02-19 | 2602.0088 | Exponential Clustering and Mass Gap via Balaban's RG |
+| 62 | 2026-02-19 | 2602.0087 | Irrelevant Operators and Anisotropy Bounds in Balaban's RG |
+| 55 | 2026-02-14 | 2602.0069 | The Balaban-Dimock Structural Package |
+| 54 | 2026-02-14 | 2602.0063 | Conditional Continuum Limit via Two-Layer Architecture |
+| 45 | 2026-02-12 | 2602.0041 | Uniform Log-Sobolev Inequality and Mass Gap |
+| 40 | 2026-02-08 | 2602.0033 | The Yang-Mills Mass Gap on the Lattice: a Self-Contained Proof |
+| 1  | 2025-12-17 | 2512.0060 | Clustering, Recovery, and Locality in Algebraic QFT |
+
+### SHA-256 Verification
+
+Cryptographic hashes of all 68 paper PDFs are published in this repository: [`eriksson_programme_sha256_hashes.txt`](./eriksson_programme_sha256_hashes.txt)
+
+These hashes provide tamper-proof verification that the paper contents have not been modified after their public timestamp dates.
+
+---
+
+## Repository Structure
+
+    ym-audit/
+    ├── LICENSE                              # AGPL-3.0
+    ├── NOTICE                               # Priority declaration & attribution terms
+    ├── README.md                            # This file
+    ├── eriksson_programme_sha256_hashes.txt # SHA-256 hashes of all 68 papers
+    ├── src/                                 # Core audit modules
+    │   ├── balaban_rg/                      # Balaban RG lemma verification
+    │   ├── kotecky_preiss/                  # Polymer expansion convergence
+    │   ├── os_axioms/                       # Osterwalder-Schrader verification
+    │   └── wightman/                        # Reconstruction theorem checks
+    ├── tests/                               # Automated test suites
+    └── docs/                                # Technical documentation
+
+## Installation
+
+    git clone https://github.com/lluiseriksson/ym-audit.git
+    cd ym-audit
+    pip install -r requirements.txt
+
+## Usage
+
+    # Run the full mechanical audit pipeline
+    python -m src.audit --full
+
+    # Verify individual steps
+    python -m src.balaban_rg --verify
+    python -m src.kotecky_preiss --convergence-check
+    python -m src.os_axioms --reflection-positivity
+    python -m src.wightman --reconstruction
+
+## How to Cite
+
+If you use this code, reference the architectural pipeline, or build upon The Eriksson Programme in any way, please cite:
+
+    @misc{eriksson2026yangmills,
+      author       = {Eriksson, Lluis},
+      title        = {The Eriksson Programme: Constructive Yang-Mills Mass Gap
+                      via Mechanical Lemma-Audit},
+      year         = {2025--2026},
+      howpublished = {viXra preprint series},
+      url          = {https://ai.vixra.org/author/lluis_eriksson},
+      doi          = {10.5281/zenodo.18799942},
+      note         = {68 papers, Dec 2025 -- Feb 2026}
+    }
+
+## Attribution Requirements
+
+**Any reimplementation of the architectural pipeline described above — in any programming language — must provide explicit attribution to Lluis Eriksson and The Eriksson Programme.**
+
+This includes but is not limited to:
+- Academic papers that follow the same proof architecture
+- Software that implements the same algorithmic audit logic
+- Blog posts, presentations, or educational materials derived from this framework
+- Translations of the code into other programming languages (Rust, OCaml, Haskell, Julia, Lean, C++, etc.)
+
+Full attribution terms are specified in the [NOTICE](./NOTICE) file under AGPL-3.0 Section 7(b).
+
+**Failure to attribute constitutes both academic misconduct and a violation of the AGPL-3.0 license terms.**
+
+---
+
+## Independent Verification of Timestamps
+
+The priority of The Eriksson Programme can be independently verified via:
+
+| Source | What it proves |
+|--------|----------------|
+| [viXra submission metadata](https://ai.vixra.org/author/lluis_eriksson) | Paper content + upload dates |
+| [Zenodo DOI records](https://doi.org/10.5281/zenodo.18799942) | Immutable DOI timestamps |
+| [GitHub commit history](https://github.com/lluiseriksson/ym-audit/commits) | Code development timeline |
+| [Wayback Machine](https://web.archive.org/web/*/github.com/lluiseriksson/ym-audit) | Third-party independent snapshots |
+| SHA-256 hashes (this repo) | Cryptographic content integrity |
+
+---
+
+## License
+
+Copyright (C) 2025-2026 Lluis Eriksson
+
+This program is free software: you can redistribute it and/or modify it under the terms of the **GNU Affero General Public License** as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+See [LICENSE](./LICENSE) for the full license text.
+See [NOTICE](./NOTICE) for priority declaration and attribution requirements.
 
 # YM Audit Suite
 
