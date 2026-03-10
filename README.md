@@ -268,4 +268,4 @@ ym-audit/
 
 ## License
 
-MIT
+AGPL-3.0 license
