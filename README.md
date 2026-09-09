@@ -1,5 +1,9 @@
 # ym-audit — The Eriksson Programme
 
+<!-- RESEARCH-UPDATE-2026-09-09 -->
+> **Research update · 9 September 2026:** [verified source cards, limits and next experiments](research/updates/2026-09-09.md) · [machine-readable dossier](research/updates/2026-09-09.json).
+> **Current scope:** the [active mother programme](https://github.com/lluiseriksson/THE-ERIKSSON-PROGRAMME) records open hRpoly and four-dimensional continuum obligations. Historical solution language below is not a current verified claim.
+
 ### Mechanical Lemma-Audit Framework for the Yang-Mills Existence and Mass Gap
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)

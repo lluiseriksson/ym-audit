@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-09-09",
+  "window": {
+    "start": "2026-09-03",
+    "end": "2026-09-09",
+    "calendar_week_start": "2026-09-07"
+  },
+  "coverage": "targeted, non-exhaustive",
+  "repository_card": {
+    "repository": "lluiseriksson/ym-audit",
+    "source_ids": [
+      "2608.27267",
+      "2609.04117",
+      "2609.00867"
+    ],
+    "local_anchors": [
+      "README.md",
+      "audit",
+      "ym_audit"
+    ],
+    "frontier": "The legacy mechanical audit framework and archived paper list are provenance records; the current public mother programme states the active mathematical scope.",
+    "bridge_hypothesis": "Add paper-to-obligation audit entries rather than treating successful numerical checks as analytic proofs. Preserve action normalization, dimensions, uniform parameters and the exact source conclusion.",
+    "next_finite_task": "For each candidate create a row containing observable, theorem/experiment type, domain, constants and an independent check. Prioritize finite gauge-invariant comparison and a bath-rate nonmonotonicity control.",
+    "falsifier": "Reject a claimed analytic discharge if the audit only samples a finite parameter grid, replaces uniform bounds by fitted constants, or confuses Hamiltonian and dissipative evolution.",
+    "related_repositories": [
+      "THE-ERIKSSON-PROGRAMME",
+      "ym-lattice-numerics"
+    ],
+    "proposal_status": "speculative; not executed or formally verified",
+    "eliminated_hypotheses": [],
+    "inspected_commit": "15933bb0046e2902656e86fafeeb3729e3a01243"
+  },
+  "sources": [
+    {
+      "id": "arxiv:2608.27267",
+      "arxiv_id": "2608.27267",
+      "title": "Efficient Quantum Simulations of Yang-Mills theory with Maximal-tree Gauge",
+      "authors": [
+        "Li, Tianyin",
+        "Li, Ying-Ying",
+        "Wang, Xiaoyang",
+        "Xing, Hongxi"
+      ],
+      "first_submitted": "2026-08-27",
+      "latest_revision": "2026-08-27",
+      "reviewed_version": "v1",
+      "url": "https://arxiv.org/abs/2608.27267v1",
+      "doi": "10.48550/arXiv.2608.27267",
+      "verified_on": "2026-09-09",
+      "recency": "background",
+      "publication_status": "preprint; peer-review status not established in this sweep",
+      "evidence_level": "literature",
+      "review_depth": "v1: abstract and maximal-tree gauge construction",
+      "source_claim": "Li and collaborators use maximal-tree gauge and field-amplitude digitization to obtain polynomial resource bounds for Hamiltonian Yang-Mills simulation through QSVT.",
+      "limits": "Hamiltonian simulation complexity is distinct from an exact Haar edge-coordinate equivalence, Euclidean reflection positivity, and a continuum mass gap. First posted 27 August; a September news mention is not a new submission.",
+      "tags": [
+        "gauge-fixing",
+        "spanning-trees",
+        "yang-mills",
+        "quantum-simulation"
+      ],
+      "abstract_page_sha256": "8fa19bcafeebf9e933c70192ace6a9b2ff01e8e6d04fd2e98295d10ef400f233",
+      "reviewed_full_text_sha256": "05f7e0cd23badc54c61dc3bafa5237f4126a6c2bcdda0d97b621cd3bb719dd1c",
+      "reuse": "Bibliographic metadata and original synthesis only; no permission to train on linked full text is inferred."
+    },
+    {
+      "id": "arxiv:2609.04117",
+      "arxiv_id": "2609.04117",
+      "title": "Non-Abelian string melting and thermalization in an open lattice gauge theory",
+      "authors": [
+        "Verde, Erick Parra",
+        "Cataldi, Giovanni",
+        "Kühn, Stefan",
+        "Magnifico, Giuseppe",
+        "Halimeh, Jad C."
+      ],
+      "first_submitted": "2026-09-03",
+      "latest_revision": "2026-09-03",
+      "reviewed_version": "v1",
+      "url": "https://arxiv.org/abs/2609.04117v1",
+      "doi": "10.48550/arXiv.2609.04117",
+      "verified_on": "2026-09-09",
+      "recency": "new-in-trailing-week",
+      "publication_status": "preprint; peer-review status not established in this sweep",
+      "evidence_level": "literature",
+      "review_depth": "v1: model, thermalization discussion and strong-dephasing reduction",
+      "source_claim": "A tensor-network study couples 1+1D SU(2) gauge theory with matter to a gauge-preserving Lindblad bath. It finds nonmonotonic relaxation and derives an exclusion-process description in a strong-dephasing limit.",
+      "limits": "This is an open-system finite/truncated lattice setting, not pure 4D Euclidean Yang-Mills. A Liouvillian relaxation rate is not automatically a Hamiltonian gap, and the strong-dephasing expansion has its own regime.",
+      "tags": [
+        "yang-mills",
+        "lindblad",
+        "zeno",
+        "tensor-networks"
+      ],
+      "abstract_page_sha256": "5bd8e4f32445c083e75584d29d5ef41d78ed422d5c848b77e706f123fb496a82",
+      "reviewed_full_text_sha256": "7eec747973d16173df4cf1775f12720a3e7ba56b4fcdf158063e15d681b8fa00",
+      "reuse": "Bibliographic metadata and original synthesis only; no permission to train on linked full text is inferred."
+    },
+    {
+      "id": "arxiv:2609.00867",
+      "arxiv_id": "2609.00867",
+      "title": "Uniform Partition-Function Estimates for Coulomb Modulated Energy at All Positive Temperatures",
+      "authors": [
+        "Wang, Zhenfu",
+        "Zhao, Xianliang"
+      ],
+      "first_submitted": "2026-09-01",
+      "latest_revision": "2026-09-01",
+      "reviewed_version": "v1",
+      "url": "https://arxiv.org/abs/2609.00867v1",
+      "doi": "10.48550/arXiv.2609.00867",
+      "verified_on": "2026-09-09",
+      "recency": "background",
+      "publication_status": "preprint; peer-review status not established in this sweep",
+      "evidence_level": "literature",
+      "review_depth": "Abstract and submission history",
+      "source_claim": "Wang and Zhao report particle-number-uniform partition-function bounds for centered Coulomb-type modulated energies in a locally square-integrable regime, with a second-chaos Fredholm-determinant limit.",
+      "limits": "Positive-real-parameter integrability does not establish complex zero-freeness. Particle-number uniformity is not automatically RG-scale, support or volume uniformity in the Yang-Mills activity norm. First posted 1 September.",
+      "tags": [
+        "partition-functions",
+        "uniformity",
+        "gaussian",
+        "fredholm-determinants"
+      ],
+      "abstract_page_sha256": "d577ac4e265c8e5618bd4160f3845a6d6bb559fd37c51e308b27b06394f586db",
+      "reviewed_full_text_sha256": null,
+      "reuse": "Bibliographic metadata and original synthesis only; no permission to train on linked full text is inferred."
+    }
+  ]
+}
