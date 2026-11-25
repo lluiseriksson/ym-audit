@@ -9,7 +9,7 @@
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18799942-blue)](https://doi.org/10.5281/zenodo.18799942)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18800920-blue)](https://doi.org/10.5281/zenodo.18800920)
-[![Papers](https://img.shields.io/badge/Papers-68%20timestamped-green)](https://ai.vixra.org/author/lluis_eriksson)
+[![Papers](https://img.shields.io/badge/Papers-68%20timestamped-green)](https://airr.science/)
 
 ---
 
@@ -32,33 +32,33 @@ A constructive proof framework for the **Yang-Mills Existence and Mass Gap** (Cl
 
 | Resource | Link |
 |----------|------|
-| **68 Papers (timestamped)** | [ai.vixra.org/author/lluis_eriksson](https://ai.vixra.org/author/lluis_eriksson) |
+| **68 Papers (timestamped)** | [airr.science](https://airr.science/) |
 | **Zenodo DOI #1** | [10.5281/zenodo.18799942](https://doi.org/10.5281/zenodo.18799942) |
 | **Zenodo DOI #2** | [10.5281/zenodo.18800920](https://doi.org/10.5281/zenodo.18800920) |
 | **This Repository** | [github.com/lluiseriksson/ym-audit](https://github.com/lluiseriksson/ym-audit) |
 
 ### Complete Paper Corpus (68 papers)
 
-The full list of all 68 papers with viXra IDs, submission dates, and titles is available in the [NOTICE](./NOTICE) file (Section 2).
+The full list of all 68 papers with archive IDs, submission dates, and titles is available in the [NOTICE](./NOTICE) file (Section 2).
 
 **Date range:** December 16, 2025 — February 27, 2026
 
 **Key papers in the constructive pipeline:**
 
-| # | Date | viXra ID | Title |
+| # | Date | AIRR record | Title |
 |---|------|----------|-------|
-| 68 | 2026-02-27 | 2602.0117 | Mechanical Audit Experiments and Reproducibility Appendix |
-| 67 | 2026-02-20 | 2602.0096 | The Master Map: Audit-First Navigation Guide to the Yang-Mills Solution |
-| 66 | 2026-02-19 | 2602.0092 | Rotational Symmetry Restoration and the Wightman Axioms |
-| 65 | 2026-02-19 | 2602.0091 | Closing the Last Gap: Verified Terminal KP Bound and Clay Checklist |
-| 64 | 2026-02-18 | 2602.0089 | Spectral Gap and Thermodynamic Limit via Log-Sobolev Inequalities |
-| 63 | 2026-02-19 | 2602.0088 | Exponential Clustering and Mass Gap via Balaban's RG |
-| 62 | 2026-02-19 | 2602.0087 | Irrelevant Operators and Anisotropy Bounds in Balaban's RG |
-| 55 | 2026-02-14 | 2602.0069 | The Balaban-Dimock Structural Package |
-| 54 | 2026-02-14 | 2602.0063 | Conditional Continuum Limit via Two-Layer Architecture |
-| 45 | 2026-02-12 | 2602.0041 | Uniform Log-Sobolev Inequality and Mass Gap |
-| 40 | 2026-02-08 | 2602.0033 | The Yang-Mills Mass Gap on the Lattice: a Self-Contained Proof |
-| 1  | 2025-12-17 | 2512.0060 | Clustering, Recovery, and Locality in Algebraic QFT |
+| 68 | 2026-02-27 | [ARR-2026-07WK42E0ZR9H8AXE](https://airr.science/papers/ARR-2026-07WK42E0ZR9H8AXE/) | Mechanical Audit Experiments and Reproducibility Appendix |
+| 67 | 2026-02-20 | [ARR-2026-6XR934XYNJ9V1B0P](https://airr.science/papers/ARR-2026-6XR934XYNJ9V1B0P/) | The Master Map: Audit-First Navigation Guide to the Yang-Mills Solution |
+| 66 | 2026-02-19 | [ARR-2026-2A2CRNRPDC9WCRDQ](https://airr.science/papers/ARR-2026-2A2CRNRPDC9WCRDQ/) | Rotational Symmetry Restoration and the Wightman Axioms |
+| 65 | 2026-02-19 | [ARR-2026-11MS45KY8Q8YTSN6](https://airr.science/papers/ARR-2026-11MS45KY8Q8YTSN6/) | Closing the Last Gap: Verified Terminal KP Bound and Clay Checklist |
+| 64 | 2026-02-18 | [ARR-2026-7APPCT8GM198ERNP](https://airr.science/papers/ARR-2026-7APPCT8GM198ERNP/) | Spectral Gap and Thermodynamic Limit via Log-Sobolev Inequalities |
+| 63 | 2026-02-19 | [ARR-2026-4P13YY8RKA84FRBQ](https://airr.science/papers/ARR-2026-4P13YY8RKA84FRBQ/) | Exponential Clustering and Mass Gap via Balaban's RG |
+| 62 | 2026-02-19 | [ARR-2026-2BNVY391BQ9A5VM6](https://airr.science/papers/ARR-2026-2BNVY391BQ9A5VM6/) | Irrelevant Operators and Anisotropy Bounds in Balaban's RG |
+| 55 | 2026-02-14 | [ARR-2026-5FCQWZC9RM9TF9DV](https://airr.science/papers/ARR-2026-5FCQWZC9RM9TF9DV/) | The Balaban-Dimock Structural Package |
+| 54 | 2026-02-14 | [ARR-2026-1P88SB34HC8V492J](https://airr.science/papers/ARR-2026-1P88SB34HC8V492J/) | Conditional Continuum Limit via Two-Layer Architecture |
+| 45 | 2026-02-12 | [ARR-2026-3TG8KQ8WTF9M4SP7](https://airr.science/papers/ARR-2026-3TG8KQ8WTF9M4SP7/) | Uniform Log-Sobolev Inequality and Mass Gap |
+| 40 | 2026-02-08 | [ARR-2026-0G3K2JDS6F93CTZJ](https://airr.science/papers/ARR-2026-0G3K2JDS6F93CTZJ/) | The Yang-Mills Mass Gap on the Lattice: a Self-Contained Proof |
+| 1  | 2025-12-17 | [ARR-2025-7GXFT1VQV98JNA6Q](https://airr.science/papers/ARR-2025-7GXFT1VQV98JNA6Q/) | Clustering, Recovery, and Locality in Algebraic QFT |
 
 ### SHA-256 Verification
 
@@ -109,8 +109,8 @@ If you use this code, reference the architectural pipeline, or build upon The Er
       title        = {The Eriksson Programme: Constructive Yang-Mills Mass Gap
                       via Mechanical Lemma-Audit},
       year         = {2025--2026},
-      howpublished = {viXra preprint series},
-      url          = {https://ai.vixra.org/author/lluis_eriksson},
+      howpublished = {AIRR.SCIENCE archive},
+      url          = {https://airr.science/},
       doi          = {10.5281/zenodo.18799942},
       note         = {68 papers, Dec 2025 -- Feb 2026}
     }
@@ -137,7 +137,7 @@ The priority of The Eriksson Programme can be independently verified via:
 
 | Source | What it proves |
 |--------|----------------|
-| [viXra submission metadata](https://ai.vixra.org/author/lluis_eriksson) | Paper content + upload dates |
+| [AIRR records](https://airr.science/) | Paper content + upload dates |
 | [Zenodo DOI records](https://doi.org/10.5281/zenodo.18799942) | Immutable DOI timestamps |
 | [GitHub commit history](https://github.com/lluiseriksson/ym-audit/commits) | Code development timeline |
 | [Wayback Machine](https://web.archive.org/web/*/github.com/lluiseriksson/ym-audit) | Third-party independent snapshots |
@@ -160,7 +160,7 @@ See [NOTICE](./NOTICE) for priority declaration and attribution requirements.
 
 Mechanical audit experiments for a companion-paper programme on 4D SU(N) Yang–Mills existence and mass gap.
 
-Papers archived at [ai.vixra.org/author/lluis_eriksson](https://ai.vixra.org/author/lluis_eriksson).
+Papers archived at [airr.science](https://airr.science/).
 
 ## Quick Start (3 lines)
 
